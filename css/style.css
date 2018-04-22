@@ -1,0 +1,116 @@
+div {
+	box-sizing:border-box;
+}
+.wrapper {
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;	
+	border:1px solid black;
+	width:95%;
+	margin:0 auto;
+}
+.header {
+	display:flex; 
+	align-items:center;
+	width:100%;
+	/*background-color:#EDEEF0;*/
+	background-image:linear-gradient(#aaa2a2,#EDEEF0); 
+	border-bottom:1px solid black;
+	padding:1%; 
+}
+.logo {
+	display: block;
+	width:15%; 
+    min-width:100px;
+}
+.siteName {
+	font-family: 'Caveat Brush', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+	font-size:50px;
+	padding-left:2%;
+	width: 80%;
+	text-shadow: 1px 1px 6px grey;
+}
+.menu {
+	width:100%;
+	background-color:#EDEEF0; 
+	border-bottom:1px solid black;
+	padding:1%; 
+}
+.menu ul{
+	display:flex;
+}
+.menu ul li {
+    margin:0 1%;
+    width:100%;
+    text-align: center;
+    list-style-type: none;
+}
+.menu a {
+	text-decoration:none;
+	color:black;
+}
+.menu li:hover {
+	transform:scale(2);
+}
+.profile {
+	width:60%;
+	background-color:#EDEEF0; 
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	padding:1%;
+}
+.profilePhoto {
+	padding:1%;
+	width:60%; 
+    min-width:100px;
+}
+.sidebar {
+	width:40%;
+	background-color:#EDEEF0; 
+	border-bottom:1px solid black;
+	padding: 1%
+}
+.article {
+	width:100%;
+	background-color:#EDEEF0; 
+	border-bottom:1px solid black;
+	padding:1%; 
+}
+.hobbie {
+	padding:1%;
+	width:30%; 
+    min-width:100px;
+}
+.music {
+	padding:1%;
+	width:30%; 
+    min-width:100px;
+}
+.films {
+	padding:1%;
+	width:30%; 
+    min-width:100px;
+}
+.nothing {
+	width:100%;
+	background-color:#EDEEF0; 
+	padding:1%; 
+	border-bottom: 1px solid black;
+}
+.footer {
+	width: 100%;
+	background-color:#EDEEF0;
+	padding:1%; 
+}
+.footer img {
+	width:10%;
+	min-width:50px; 
+}
+.footer ul  {
+	display:flex;
+}
+.footer ul li {
+	list-style-type: none;
+}
+
